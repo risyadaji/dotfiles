@@ -1,13 +1,17 @@
+[user]
+	name = Risyad Aji Dharmawan
+	email = ris.a.dharm@gmail.com
+
+
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+
 [url "ssh://git@bitbucket.com/"]
         insteadOf = https://bitbucket.com/
 
 [url "ssh://git@bitbucket.org/"]
         insteadOf = https://bitbucket.org/
 
-[user]
-	email = risyad.aji@efishery.com
-	name = Risyad Aji Dharmawan
-[url "git@bitbucket.org:"]
-	insteadOf = https://bitbucket.org/
+
 [pull]
 	rebase = true
