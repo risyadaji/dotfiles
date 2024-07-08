@@ -11,10 +11,10 @@ brew "neovim"
 brew "ripgrep"
 cask "font-fira-code-nerd-font"
 cask "font-victor-mono-nerd-font"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Open-source code editor
 cask "visual-studio-code"
-# Rust-based terminal
-cask "warp"
 vscode "1yib.rust-bundle"
 vscode "akamud.vscode-theme-onelight"
 vscode "bradlc.vscode-tailwindcss"
