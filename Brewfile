@@ -3,16 +3,24 @@ tap "homebrew/bundle"
 brew "bitwarden-cli"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# App for managing battery charging. (Also installs a CLI on first use.)
+cask "battery"
 cask "font-fira-code-nerd-font"
 cask "font-victor-mono-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Team communication and collaboration software
+cask "slack"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "1yib.rust-bundle"

@@ -21,9 +21,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```bash
 ln -s <source_file> <destination_file>
 
-ex: 
 # start from $HOME
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/.nvm ~/.nvm
 ```
 
 
