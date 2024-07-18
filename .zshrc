@@ -25,6 +25,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
+alias lg="lazygit"
 
 # Working Env
 # export GOPATH=$HOME/go
