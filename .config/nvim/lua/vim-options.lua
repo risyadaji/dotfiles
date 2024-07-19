@@ -9,14 +9,14 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 
 -- Navigate vim panes better
-vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
-vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
-vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
-vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
+vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
 
 -- Navigate buffers
-vim.keymap.set('n', '<c-]>', ':bnext<CR>')
-vim.keymap.set('n', '<c-[>', ':bprev<CR>')
-vim.keymap.set('n', '<c-w>', ':bd<CR>')
+vim.keymap.set("n", "<C-]>", ":bnext<CR>")
+vim.keymap.set("n", "<C-}>", ":bprev<CR>")
 
-vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
+vim.keymap.set("i", "jk", "<esc>", { noremap = true })
