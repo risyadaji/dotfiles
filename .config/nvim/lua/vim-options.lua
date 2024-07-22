@@ -20,3 +20,4 @@ vim.keymap.set("n", "<C-}>", ":bprev<CR>")
 
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.keymap.set("i", "jk", "<esc>", { noremap = true })
+vim.api.nvim_set_option("clipboard", "unnamed")
