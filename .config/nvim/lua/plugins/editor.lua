@@ -4,6 +4,12 @@ return {
     enabled = false,
   },
 
+  -- terminal
+  {
+    "akinsho/toggleterm.nvim",
+    config = true,
+  },
+
   {
     "dinhhuy258/git.nvim",
     event = "BufReadPre",

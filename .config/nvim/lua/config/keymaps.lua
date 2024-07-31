@@ -34,7 +34,10 @@ keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
+-- ToogleTerm
+keymap.set("n", "<C-w>t", ":ToggleTerm<CR>")
+
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
+keymap.set("n", "<C-d>", function()
   vim.diagnostic.goto_next()
 end, opts)
